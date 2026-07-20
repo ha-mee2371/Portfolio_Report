@@ -10,15 +10,22 @@ body {
 
 /* 戻るボタン */
 .back-link {
-    display: inline-block;
-    margin-bottom: 20px;
-    color: #666;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
+  display: inline-block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: 1px solid #1a1a1a;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: #fff;
+  transition: all 0.2s;
+  margin-bottom: 20px;
 }
 .back-link:hover {
-    color: #000;
+  background: #1a1a1a;
+  color: #faf6ee;
 }
 
 /* タイトルと区切り線 */
@@ -36,7 +43,7 @@ hr {
 /* 見出し */
 h2 {
     font-size: 18px;
-    border-left: 5px solid #333;
+    border-left: 5px solid #cc2222;
     padding-left: 10px;
     margin-top: 40px;
     margin-bottom: 16px;
@@ -122,4 +129,47 @@ code.inline {
     padding: 12px;
     border-radius: 4px;
     margin-top: 40px;
+}
+/* ===== CHECKER（チェッカーフラッグ） ===== */
+.checker {
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+}
+.checker-cell.b {
+  background: #1a1a1a;
+}
+.checker-cell.w {
+  background: #faf6ee;
+}
+.checker-wrap {
+  position: relative;
+}
+.footer-checker {
+  display: grid;
+  width: 100%;
+}
+
+/* ===== HEADER NAV & BACK BUTTON（戻るボタン） ===== */
+.header-nav {
+  padding: 16px 20px 0;
+}
+.back-link,
+.back-btn {
+  display: inline-block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: 1px solid #1a1a1a;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: #fff;
+  transition: all 0.2s;
+}
+.back-link:hover,
+.back-btn:hover {
+  background: #1a1a1a;
+  color: #faf6ee;
 }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟ブラウザのタブの上部、検索エンジンの検索結果に表示されるタイトル🌟</title>
+<link rel="stylesheet" href="../note_style.css">
+</head>
+<body>
+
+    <a href="javascript:history.back();" class="back-link">← BACK</a>
+
+    <h1>🌟本編に表示されるタイトル🌟</h1>
+    <hr>
+
+🌟ここに本文🌟
+
+</body>
+</html>
