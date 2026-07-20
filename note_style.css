@@ -171,6 +171,14 @@ code.inline {
   border-radius: 4px;
   background: #fff;
   transition: all 0.2s;
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+}
+.back-link:hover,
+.back-btn:hover {
+  background: #1a1a1a;
+  color: #faf6ee;
 }
 .back-link:hover,
 .back-btn:hover {
