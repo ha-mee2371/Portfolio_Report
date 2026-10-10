@@ -21,6 +21,13 @@
 const articles = [
   {
     category: "Other",
+    title: "【自作PWA】自分専用の自己管理アプリを作った話",
+    desc: "自分専用のPWAを制作した日記です。",
+    tags: ["PWA", "自己管理"],
+    url: "https://ha-mee2371.github.io/Portfolio_Report/notes/DashBoard.html"
+  },
+  {
+    category: "Other",
     title: "iPadからPCをRDPで操作しようとした話",
     desc: "タイトルのまんま。日記だよ。",
     tags: ["Wi-Fi", "RDP（リモートデスクトップ）", "ポート"],
