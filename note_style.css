@@ -185,3 +185,27 @@ code.inline {
   background: #1a1a1a;
   color: #faf6ee;
 }
+/* 画像の横並びグループ */
+.image-group {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 24px 0;
+}
+
+/* グループ内の各画像フィギュアの調整 */
+.image-group .blog-figure {
+    flex: 1;
+    margin: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.image-group .blog-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
